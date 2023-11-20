@@ -1,18 +1,18 @@
 import tkinter as tk
 import message as message
 
-# 创建主窗口
+
 root = tk.Tk()
 root.title("MESSAGE BOMB!!!!!!")
 root.geometry("450x300")
 root.resizable(False, False)
 
-# 初始化变量
+
 text = tk.StringVar()
 frequency = tk.IntVar()
 lag = tk.DoubleVar()
 
-lag.set(0.1)  # lag赋值0.1
+lag.set(0.1)
 
 
 def send():
